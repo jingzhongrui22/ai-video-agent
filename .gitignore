@@ -1,0 +1,28 @@
+# 本地环境变量与密钥
+.env
+.env.*
+!.env.example
+
+# 项目虚拟环境
+.venv/
+venv/
+
+# Python 缓存与测试产物
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+
+# 构建产物
+build/
+dist/
+*.egg-info/
+
+# 日志
+*.log
+
+# 生成的媒体文件，保留目录占位文件
+storage/**/*
+!storage/**/
+!storage/**/.gitkeep
