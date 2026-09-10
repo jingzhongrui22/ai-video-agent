@@ -1,0 +1,25 @@
+# Local environment and secrets
+**/.env
+**/.env.*
+**/.venv
+**/venv
+
+# Python caches and build artifacts
+**/__pycache__
+**/*.py[cod]
+**/.pytest_cache
+**/.mypy_cache
+**/.ruff_cache
+**/.cache
+**/.coverage*
+**/htmlcov
+**/build
+**/dist
+**/*.egg-info
+**/*.log
+
+# Generated media
+storage/
+
+# Repository metadata
+.git/
